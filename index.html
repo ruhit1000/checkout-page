@@ -101,8 +101,51 @@
         </section>
 
         <!-- Right -->
-        <section>
-
+        <section class="bg-[url(./asset/Group21.png)] bg-no-repeat bg-bottom-right">
+            <div class="w-md mx-auto py-[115px]">
+                <button class="w-full bg-[#03A9F4] py-3 font-bold text-white rounded-sm shadow-md cursor-pointer">Pay
+                    with PayPal</button>
+                <fieldset class="border-0 border-t border-[#3c42571f] mt-8 pt-8 space-y-8">
+                    <legend class="text-center px-2 text-[#8792A2]">Or pay with card</legend>
+                    <div>
+                        <label class="font-bold text-sm text-[#697386]" for="email">Email</label><br>
+                        <input class="border border-[#3c42571f] w-full h-10 mt-2 rounded-lg px-2" type="email" name=""
+                            id="email">
+                    </div>
+                    <div>
+                        <div class="relative">
+                            <img class="absolute bottom-1/6 right-2" src="./asset/Cards.png" alt="">
+                            <label class="font-bold text-sm text-[#697386]" for="card-details">Card Details</label><br>
+                            <input class="border border-[#3c42571f] w-full h-10 mt-2 rounded-lg px-2" type="text"
+                                inputmode="numeric" name="" id="card-details" placeholder="1234 1234 1234 1234">
+                        </div>
+                        <div class="flex relative">
+                            <input class="border border-[#3c42571f] w-1/2 h-10 rounded-lg px-2" type="number" name=""
+                                id="date" placeholder="MM / YY">
+                            <input class="border border-[#3c42571f] w-1/2 h-10 rounded-lg px-2" type="number" name=""
+                                id="date" placeholder="CVC">
+                            <img class="absolute bottom-3 right-2" src="./asset/Group2.png" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="font-bold text-sm text-[#697386]" for="name">Name on card</label><br>
+                        <input class="border border-[#3c42571f] w-full h-10 mt-2 rounded-lg px-2" type="text" name=""
+                            id="name">
+                    </div>
+                    <div>
+                        <label class="font-bold text-sm text-[#697386]" for="country">Country or region</label><br>
+                        <select class="border border-[#3c42571f] w-full h-10 rounded-lg px-2" name="" id="">
+                            <option value="United States">United States</option>
+                            <option value="Bangladesh">Bangladesh</option>
+                            <option value="United Kingdom">United Kingdom</option>
+                            <option value="France">France</option>
+                        </select>
+                        <input class="border border-[#3c42571f] w-full h-10 rounded-lg px-2" type="number" name=""
+                            id="zip" placeholder="ZIP">
+                    </div>
+                    <button class="w-full bg-[#03A9F4] py-3 font-bold text-white rounded-sm shadow-md cursor-pointer">Pay $42.00</button>
+                </fieldset>
+            </div>
         </section>
     </main>
 </body>
