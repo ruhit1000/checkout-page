@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            font-family: "Roboto", sans-serif;
+            font-optical-sizing: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="grid grid-cols-2 min-h-screen">
+
+        <!-- left -->
+        <section class="bg-[url(./asset/Cover.png)] bg-no-repeat bg-center bg-cover">
+            <img class="mx-auto mt-12 mb-5" src="./asset/LOGO.png" alt="">
+            <h2 class="text-center font-bold text-white text-3xl mb-6">Complete your purchase</h2>
+            <div class="w-2xl bg-[#ffffff33] p-8 backdrop-blur-sm mx-auto">
+                <div class="bg-[#ffffff99] p-3 rounded-sm grid grid-cols-[auto_1fr_auto] gap-3 mb-8">
+                    <img class="mt-1" src="./asset/item-card.png" alt="">
+                    <div>
+                        <h2 class="font-bold text-[#4F4F4F] mb-2 text-lg">Golden Penny Spread</h2>
+                        <div class="flex gap-11 text-[#7A7A7A]">
+                            <p>SN43500</p>
+                            <p>12:50 PM</p>
+                        </div>
+                    </div>
+                    <div class="text-end">
+                        <h2 class="font-bold text-[#242424] mb-3">AUG 5</h2>
+                        <h2 class="font-bold text-[#242424]">$14.79</h2>
+                    </div>
+                </div>
+                <div class="bg-[#ffffff99] p-3 rounded-sm grid grid-cols-[auto_1fr_auto] gap-3 mb-8">
+                    <img class="mt-1" src="./asset/item-card.png" alt="">
+                    <div>
+                        <h2 class="font-bold text-[#4F4F4F] mb-2 text-lg">Orange Blossom Honey</h2>
+                        <div class="flex gap-11 text-[#7A7A7A]">
+                            <p>SN76500</p>
+                            <p>12:50 PM</p>
+                        </div>
+                    </div>
+                    <div class="text-end">
+                        <h2 class="font-bold text-[#242424] mb-3">AUG 5</h2>
+                        <h2 class="font-bold text-[#242424]">$20.21</h2>
+                    </div>
+                </div>
+                <div class="bg-[#ffffff99] p-3 rounded-sm grid grid-cols-[auto_1fr_auto] gap-3 mb-12">
+                    <img class="mt-1" src="./asset/item-card.png" alt="">
+                    <div>
+                        <h2 class="font-bold text-[#4F4F4F] mb-2 text-lg">Cocopops Cereal</h2>
+                        <div class="flex gap-11 text-[#7A7A7A]">
+                            <p>SN90500</p>
+                            <p>12:50 PM</p>
+                        </div>
+                    </div>
+                    <div class="text-end">
+                        <h2 class="font-bold text-[#242424] mb-3">AUG 5</h2>
+                        <h2 class="font-bold text-[#242424]">$15.00</h2>
+                    </div>
+                </div>
+                <div class="bg-[#ffffff99] p-3 rounded-sm mb-12">
+                    <div class="space-y-6 mb-9">
+                        <div class="flex justify-between text-[#242424] font-bold">
+                            <h2>Subtotal</h2>
+                            <h2>$50.00</h2>
+                        </div>
+                        <div class="flex justify-between text-[#242424] font-bold">
+                            <h2>Taxes & Fees</h2>
+                            <h2>$10.00</h2>
+                        </div>
+                        <div class="flex justify-between text-[#242424] font-bold">
+                            <h2>Promo Code - 1E5344505</h2>
+                            <h2>-30%</h2>
+                        </div>
+                    </div>
+                    <div class="flex justify-between text-[#242424] text-2xl font-bold">
+                        <h2>Total</h2>
+                        <h2>$42.00</h2>
+                    </div>
+                </div>
+                <div class="flex items-center gap-4">
+                    <img src="./asset/Group4.png" alt="">
+                    <h2 class="text-[#242424cc] font-bold text-sm">Previous page</h2>
+                </div>
+            </div>
+        </section>
+
+        <!-- Right -->
+        <section>
+
+        </section>
+    </main>
+</body>
+
+</html>
